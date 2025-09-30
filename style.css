@@ -11,6 +11,28 @@ body {
   overflow: hidden;
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(#000010, #0a0a2a);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#3f3f7f, #8a00ff);
+  border-radius: 10px;
+  border: 2px solid #1a1a40;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(#aa00ff, #ff00cc);
+}
+
+::-webkit-scrollbar-corner {
+  background: #000010;
+}
+
 #stars {
   position: absolute;
   width: 100%;
@@ -65,7 +87,7 @@ body {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 80%;
+  width: 100vw;
   height: 100vh;
   overflow-y: auto;
   padding: 2rem 0;
