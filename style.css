@@ -61,26 +61,6 @@ body {
   z-index: 5;
 }
 
-#polaris {
-  position: absolute;
-  z-index: 100;
-  left: 20vw;
-  top: 33.3vh;
-  transform: translate(-50%, -50%) rotate(-30deg);
-  font-size: 10em;
-}
-
-#slogan {
-  position: absolute;
-  z-index: 100;
-  left: 80vw;
-  top: 33.3vh;
-  transform: translate(-50%, -50%) rotate(30deg);
-  font-size: 2em;
-  display: flex;
-  flex-direction: column;
-}
-
 #timeline-container {
   position: absolute;
   z-index: 100;
